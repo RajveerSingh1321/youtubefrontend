@@ -10,9 +10,15 @@ function HomeComponent() {
       <div className="main">
         <div className="sidebar">
           <div className="sidebarItem">Home</div>
-          <div className="sidebarItem">Channels</div>
-          <div className="sidebarItem">Videos</div>
-          <div className="sidebarItem">Liked Videos</div>
+          <div className="sidebarItem">Shorts</div>
+          <div className="sidebarItem">Subscription</div>
+          <div className="sidebarItem">Your Channel</div>
+          <div className="sidebarItem">History</div>
+          <div className="sidebarItem">Your Videos</div>
+          <div className="sidebarItem">Watch Later</div>
+          <div className="sidebarIteme">Made with  👑 <br/> RAJVEER SINGH
+</div>
+         
         </div>
         <div className="videos">
           {videos.map(function (video) {
