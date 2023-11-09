@@ -9,13 +9,18 @@ function HomeComponent() {
       <HeaderComponent />
       <div className="main">
         <div className="sidebar">
-          <div className="sidebarItem">Home</div>
-          <div className="sidebarItem">Shorts</div>
-          <div className="sidebarItem">Subscription</div>
-          <div className="sidebarItem">Your Channel</div>
-          <div className="sidebarItem">History</div>
-          <div className="sidebarItem">Your Videos</div>
-          <div className="sidebarItem">Watch Later</div>
+          <div className="Home"></div>
+          <div className="line"></div>
+
+          <div className="You"></div>
+          <div className="line"></div>
+
+          <div className="Subs"></div>
+          <div className="line"></div>
+          
+
+
+
           <div className="sidebarIteme">Made with  👑 <br/> RAJVEER SINGH
 </div>
          

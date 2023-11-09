@@ -10,11 +10,12 @@ const HeaderComponent = () => {
         <img className="logoimage" src={logo} />
       </div>
       <div className="search">
-        <input type="text" className="searchInput" />
-        <button className="searchButton">Search</button>
+        <input type="text" className="searchInput" placeholder="Search" />
+        <button className="searchButton" >Search</button>
+        <div className="mic"></div>
       </div>
       <div className="signin">
-        <button className="signInButton" onClick={onSignIN}>SignIn</button>
+        <button className="signInButton" onClick={onSignIN}></button>
       </div>
     </div>
   );

@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
 .wrapper {
   height: 100vh;
   width: 100vw;
@@ -9,7 +14,8 @@
   height: 70px;
   display: flex;
   flex-direction: row;
-  border: 1px solid black;
+  border: 1px solid rgb(110, 110, 110);
+  /* border: 1px solid black; */
   position: sticky;
   top: 0;
   background-color: white;
@@ -25,6 +31,7 @@
 .logo {
   width: 150px;
   margin: 5px;
+  cursor: pointer;
 }
 
 .search {
@@ -37,19 +44,22 @@
 
 
 .signin {
-  width: 150px;
+  width: 200px;
   padding: 5px;
   margin: 5px;
+
 }
 
 
+
 .logoimage {
-  height: 60px;
+  height: 55px;
+  cursor: pointer;
 }
 
 .sidebar {
   width: 200px;
-  border: 1px solid black;
+  border: 1px solid rgb(110, 110, 110);
   display: flex;
   flex-direction: column;
 }
@@ -63,6 +73,69 @@
   align-items: center;
   justify-content: center;
   margin: 1px;
+}
+.You{
+  height: 220px;
+  background-image: url("./subscriptions.png");
+  background-position: center;
+  
+  background-size: cover;
+  vertical-align: middle;
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.266); */
+  display: flex;
+
+  cursor: pointer;
+}
+.Home{
+  height: 120px;
+  background-image: url("./home.png");
+  background-position: center;
+  
+  background-size: cover;
+  vertical-align: middle;
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.266); */
+  display: flex;
+
+  cursor: pointer;
+
+}
+.Subs{
+  height: 320px;
+  background-image: url("./explore.png");
+  background-position: center;
+  
+  background-size: cover;
+  vertical-align: middle;
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.266); */
+  display: flex;
+
+  cursor: pointer;
+}
+.line{
+  height: 30px;
+  background-image: url("./you.png");
+  background-position: center;
+  
+  background-size: cover;
+  vertical-align: middle;
+  text-align: center;
+  /* background-color: rgba(0, 0, 0, 0.266); */
+  display: flex;
+
+  cursor: pointer;
+
+}
+.mic{
+  background-image: url("./mic.png");
+  margin-left: 5px;
+  height: 60px;
+  cursor: pointer;
+  width: 55px;
+  background-position: center;
+  background-size: cover;
 }
 .sidebarIteme{
   height: 40px;
@@ -114,6 +187,7 @@
   width: 100%;
   height: 100%;
   border-radius: 5px;
+  
 }
 
 
@@ -151,12 +225,13 @@
   border: 1px solid rgb(176, 175, 175);
   flex: 4;
   padding-left: 15px;
-  box-shadow: 0px 0px 15px rgb(198, 22, 22);
+  cursor: text;
+ 
 }
 
 .searchInput:hover{
   background-color: rgb(211, 37, 37);
-  box-shadow: 0px 0px 15px black;
+
 }
 
 .searchButton {
@@ -168,23 +243,28 @@
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
   padding: 5px;
-  box-shadow: 0px 0px 15px rgb(204, 9, 9);
+  cursor: pointer;
+
 }
 .searchButton:hover{
   background-color: rgb(220, 3, 3);
-  box-shadow: 0px 0px 15px black;
+
 }
 
 .signInButton {
-  width: 80%;
-  color: rgb(228, 228, 228);
-  background-color: rgb(118, 89, 89);
-  height: 100%;
-  border-radius: 30px;
+  width: 190px;
+  /* color: rgb(228, 228, 228); */
+  border-color: rgba(124, 123, 123, 0);
+  background-image: url("./Signin.png");
+  background-size: cover;
+  background-position: center;
+  height: 50px;
+  /* border-radius: 30px; */
+  cursor: pointer;
 }
 .signInButton:hover{
   background-color: rgb(220, 3, 3);
-  box-shadow: 0px 0px 15px black;
+ 
 }
 
 .channelImage {
